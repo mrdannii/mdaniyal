@@ -74,7 +74,7 @@ const Resume = () => {
                 City University of Science and Information Technology
                 </span>
                 <span className=" text-[.9rem] font-semibold text-yellow-500 sm:text-base">
-                  Year 2017 - Year 2021
+                   2017 - 2021
                 </span>
                 <p className=" text-[.9rem] text-justify text-gray-500">
                 
