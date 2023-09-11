@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
+import resumePDF from "../../assets/Muhammad-Daniyal-Resume.pdf";
 import photoJPG from "../../assets/photo.jpg";
 
 
@@ -47,7 +47,7 @@ const Hero = () => {
           </div>
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
-              href=""
+              href="mailto:mr.dannii98@gmail.com"
               className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
             >
               <span> Hire Me</span>
@@ -62,25 +62,25 @@ const Hero = () => {
               </div>
             </a>
           </div>
-          <div className="icons flex mt-5">
+          <div className="icons flex mt-3">
             <ul
               data-aos="fade-up"
               data-aos-duration="1500"
               className=" flex gap-5"
             >
               <li>
-                <a href="">
-                  {" "}
+                <a href="https://github.com/mrdannii ">
+                  {""}
                   <AiFillGithub className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125" />{" "}
                 </a>
               </li>
               <li>
-                <a href="">
-                  {" "}
+                <a href="https://www.linkedin.com/in/mrdannii">
+                  {""}
                   <FaLinkedinIn className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125 " />{" "}
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="">
                   {" "}
                   <AiFillInstagram className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
@@ -97,7 +97,7 @@ const Hero = () => {
                   {" "}
                   <AiFillTwitterCircle className=" h-[1.8rem] w-[1.8rem] text-xl hover:scale-125  " />{" "}
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

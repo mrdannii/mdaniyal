@@ -12,10 +12,10 @@ const navItems = [
     id: 1,
     name: "skills",
   },
-  {
-    id: 2,
-    name: "works",
-  },
+  // {
+  //   id: 2,
+  //   name: "works",
+  // },
   {
     id: 3,
     name: "resume",
@@ -106,7 +106,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
               </li>
             ))}
             <a
-              href=""
+              href="mailto:mr.dannii98@gmail.com"
               className="bg-black text-[1rem] text-white px-5 py-2 rounded-lg font-bold hover:text-yellow-400 md:m-5 md:block md:mx-auto md:w-fit lg:px-3"
             >
               Hire Me
