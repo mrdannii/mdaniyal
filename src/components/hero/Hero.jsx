@@ -9,7 +9,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Muhammad-Daniyal-Resume.pdf";
-import photoJPG from "../../assets/photo.jpg";
+import photoJPG from "../../assets/photo4.png";
 
 
 const Hero = () => {
@@ -101,7 +101,7 @@ const Hero = () => {
             </ul>
           </div>
         </div>
-        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end">
+        <div className="right  top-5 flex-1 flex items-center justify-center md:items-end sm:items-end sm:m-5">
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
